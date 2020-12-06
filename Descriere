@@ -1,0 +1,5 @@
+Proiectul conține două programe.
+Programul Generate_md5.py preia dintr-un fișier text numit "input.txt" căile complete ale unor fișiere sau directoare.
+Pentru directoare, programul caută recursiv toate fișierele din director.
+Pentru toate aceste fișiere găsite, se generează md5-ul, iar în final se adaugă în baza de date "checksum.csv" fiecare fișier și codul său md5.
+Programul File_check.py citește baza de date "checksum.csv" și verifică pentru fiecare fișier citit dacă valoarea md5-ului din baza de date este aceeași cu cea nou calculată.
